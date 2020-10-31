@@ -84,11 +84,9 @@ const startsWith = (char, string) => {
   return (char === string.charAt(0) ? true : false);
 };
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 /*This should return TRUE if it has vowels*/
-=======
-<<<<<<< HEAD
 let containsVowels = (string) => {  
     let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];  
     for (i = 0; i < vowels.length; i += 1) {     /*LOOP START*/
@@ -99,10 +97,7 @@ let containsVowels = (string) => {
     }; /*LOOP END*/
   return false;
 }
-=======
->>>>>>> 8ba518d168864b421ea8af8e3f86d76e43d3211f
-=======
->>>>>>> 58a20f562d38a827d0d569deeeb6b705e29801ab
+
 let containsVowels = (string) => {      
   let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];      
   for (i = 0; i < vowels.length; i += 1) {     /*LOOP START*/      
